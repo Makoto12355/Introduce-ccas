@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5fc">
+  <meta name="description" content="เว็บไซต์แนะนำตัว สถานที่เล่าเรื่องราว ความชอบ และแรงบันดาลใจในแบบของฉัน">
+  <title>My Little Universe — เว็บไซต์แนะนำตัว</title>
+
+  <!-- สไตล์หลักของเว็บไซต์ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="กลับไปหน้าแรก">
+        <span class="brand-icon" aria-hidden="true">✳︎</span>
+        <span class="brand-name">MY<span class="brand-dot">.</span>STORY</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="เมนูหลัก">
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#moments">เรื่องราวของฉัน</a>
+        <a href="#favorite">วิดีโอที่ชอบ</a>
+      </nav>
+
+      <a class="header-cta" href="#moments">
+        สำรวจเรื่องราว
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <details class="mobile-menu">
+        <summary aria-label="เปิดเมนูนำทาง"><span></span><span></span><span></span></summary>
+        <nav class="mobile-dropdown" aria-label="เมนูบนมือถือ">
+          <a href="#about">เกี่ยวกับฉัน</a>
+          <a href="#moments">เรื่องราวของฉัน</a>
+          <a href="#favorite">วิดีโอที่ชอบ</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- โทน lavender / rose พร้อมภาพแนะนำตัว -->
+    <section class="hero-shell" aria-labelledby="hero-title">
+      <div class="hero-banner">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-content container">
+          <div class="hero-copy">
+            <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> WELCOME TO MY LITTLE UNIVERSE <span class="eyebrow-line"></span> 2026</div>
+            <p class="hero-hello">สวัสดี ทุกคน <span aria-hidden="true">✳︎</span></p>
+            <h1 id="hero-title">ดีจ้าา<br>มาเริ่มรู้จัก<span class="hero-accent">ตัวโรซีนผู้นี้ดีกว่า<span class="hero-period">.</span></span></h1>
+            <p class="hero-description">พื้นที่เล็ก ๆ ที่รวบรวมตัวตน สิ่งที่รัก กิจกรรมที่ทำ<br class="desktop-break"> และความทรงจำดี ๆ ที่อยากแบ่งปันให้คุณรู้จัก</p>
+            <a class="hero-button" href="#about">
+              <span>มาทำความรู้จักกัน</span>
+              <span class="button-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16m-7-7 7 7 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+        <figure class="hero-portrait">
+          <img src="images/banner.jpg" alt="โรซีนยิ้มให้กล้อง" width="1108" height="1477" fetchpriority="high">
+        </figure>
+        <div class="hero-side-label" aria-hidden="true">THE STORY BEHIND MY SMILE &nbsp; / &nbsp; VOL. 01</div>
+        <div class="hero-bottom">
+          <span>PERSONAL WEBSITE <span class="bottom-divider">/</span> MADE WITH PASSION</span>
+          <a href="#about" class="scroll-cue">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+        </div>
+        <span class="hero-sparkle sparkle-one" aria-hidden="true">✳︎</span>
+        <span class="hero-sparkle sparkle-two" aria-hidden="true">✦</span>
+      </div>
+      <span class="hero-caption">01 — THE BEGINNING OF MY STORY</span>
+    </section>
+
+    <!-- INTRODUCTION BELOW BANNER -->
+    <section class="intro-section section-padding" id="about" aria-labelledby="intro-title">
+      <div class="container intro-grid">
+        <div class="intro-label reveal">
+          <span class="section-index"><span class="tiny-square"></span> 01 / ABOUT ME</span>
+          <div class="intro-decoration" aria-hidden="true"><span>✳︎</span><span class="decor-line"></span></div>
+        </div>
+        <div class="intro-copy reveal">
+          <p class="intro-overline">A LITTLE INTRODUCTION</p>
+          <h2 id="intro-title">ยินดีที่ได้รู้จักเราชื่อ<span class="accent-italic">โรซีน</span><br>เรากำลังเรียนอยู่น่ะ <span class="highlight-stroke"></span></h2>
+          <p class="intro-body">สวัสดี! เราชื่อ <strong>“โรซีน”</strong> เป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ สนุกกับการใช้เวลาทำกิจกรรมที่ตัวเองสนใจ และเชื่อว่าทุกวันมีเรื่องเล็ก ๆ ที่ทำให้เราเติบโตขึ้นได้เสมอ เว็บไซต์นี้เลยเป็นเหมือนสมุดบันทึกออนไลน์ ที่อยากชวนทุกคนมารู้จักเรามากขึ้นอีกนิด</p>
+          <div class="intro-chips" aria-label="คำที่อธิบายตัวตน">
+            <span><span aria-hidden="true">✦</span> BE CREATIVE</span>
+            <span><span aria-hidden="true">✦</span> STAY CURIOUS</span>
+            <span><span aria-hidden="true">✦</span> KEEP GROWING</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THREE PHOTO CARDS -->
+    <section class="stories-section section-padding" id="moments" aria-labelledby="stories-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index"><span class="tiny-square"></span> 02 / MY PERSONAL CHAPTERS</span>
+            <h2 id="stories-title">3 มุมเล็ก ๆ <span class="heading-script">ของฉัน<span aria-hidden="true">✳︎</span></span></h2>
+          </div>
+          <p>ภาพถ่ายและเรื่องราวง่าย ๆ<br>ที่สะท้อนความเป็นตัวฉันได้ดีที่สุด</p>
+        </div>
+
+        <div class="story-grid">
+          <!-- CARD 1: แนะนำตัว / เปลี่ยน src เป็นรูปของตัวเอง -->
+          <article class="story-card reveal">
+            <div class="story-photo">
+              <img src="images/profile.jpg" alt="ภาพตัวอย่างบุคคลสำหรับใช้เป็นรูปแนะนำตัว" loading="lazy">
+              <span class="card-floating-number" aria-hidden="true">01</span>
+              <span class="photo-label">THIS IS ME</span>
+            </div>
+            <div class="story-info">
+              <div class="story-category">GET TO KNOW ME <span class="category-line"></span></div>
+              <div class="story-title-row">
+                <h3>มาทำความรู้จักกัน</h3>
+                <span class="story-arrow" aria-hidden="true">↗︎</span>
+              </div>
+              <p>เราชื่อ โรซีน เรียนอยู่วิทยาลัยโพธิวิชชาลัย ตอนนี้อายุ 21 ปีฮัฟฟู่ว</p>
+              <span class="story-footer">MY INTRODUCTION <span>— 01</span></span>
+            </div>
+          </article>
+
+          <!-- CARD 2: กิจกรรมที่ชอบ / เปลี่ยน src เป็นรูปกิจกรรมของตัวเอง -->
+          <article class="story-card story-card-offset reveal">
+            <div class="story-photo">
+              <img src="images/activity.jpg" alt="ภาพตัวอย่างธรรมชาติและการเดินทางสำหรับกิจกรรมที่ชอบ" loading="lazy">
+              <span class="card-floating-number" aria-hidden="true">02</span>
+              <span class="photo-label">MY HAPPY PLACE</span>
+            </div>
+            <div class="story-info">
+              <div class="story-category">THINGS I LOVE <span class="category-line"></span></div>
+              <div class="story-title-row">
+                <h3>กิจกรรมที่ชอบ</h3>
+                <span class="story-arrow" aria-hidden="true">↗︎</span>
+              </div>
+              <p>ชอบคอสเพลย์ ชอบทำงานพาร์ททาม ชอบขายของค้าบบ ว่างๆก็ชอบเล่นเกมหรือเล่นกีฬาคับ</p>
+              <span class="story-footer">MY FAVORITE ACTIVITIES <span>— 02</span></span>
+            </div>
+          </article>
+
+          <!-- CARD 3: กิจกรรมเสริม / เปลี่ยน src เป็นรูปกิจกรรมของตัวเอง -->
+          <article class="story-card reveal">
+            <div class="story-photo">
+              <img src="images/hobby.jpg" alt="ภาพตัวอย่างโต๊ะทำงานกับคอมพิวเตอร์สำหรับกิจกรรมเสริม" loading="lazy">
+              <span class="card-floating-number" aria-hidden="true">03</span>
+              <span class="photo-label">BEYOND EVERYDAY</span>
+            </div>
+            <div class="story-info">
+              <div class="story-category">MORE ABOUT ME <span class="category-line"></span></div>
+              <div class="story-title-row">
+                <h3>กิจกรรมเสริม</h3>
+                <span class="story-arrow" aria-hidden="true">↗︎</span>
+              </div>
+              <p>งานอดิเรกของผมคือชอบสะสมของอนิเมะต่างๆและเก็บสะสมของงานคอสต่างๆคับบ</p>
+              <span class="story-footer">MY SIDE ACTIVITIES <span>— 03</span></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>CREATE</span><i>✳︎</i><span>EXPLORE</span><i>✳︎</i><span>ENJOY</span><i>✳︎</i><span>BE YOURSELF</span><i>✳︎</i>
+        <span>CREATE</span><i>✳︎</i><span>EXPLORE</span><i>✳︎</i><span>ENJOY</span><i>✳︎</i><span>BE YOURSELF</span><i>✳︎</i>
+      </div>
+    </div>
+
+    <!-- YOUTUBE + DESCRIPTION ON THE RIGHT -->
+    <section class="favorite-section" id="favorite" aria-labelledby="favorite-title">
+      <div class="video-glow video-glow-one" aria-hidden="true"></div>
+      <div class="video-glow video-glow-two" aria-hidden="true"></div>
+      <div class="container video-container">
+        <div class="video-top reveal">
+          <span class="section-index section-index-light"><span class="tiny-square"></span> 03 / SOMETHING I RECOMMEND</span>
+          <span class="video-small-decor">GOOD STORIES ARE MEANT TO BE SHARED <span aria-hidden="true">↗︎</span></span>
+        </div>
+        <h2 id="favorite-title" class="video-section-title reveal">คลิปโปรด <span>ที่อยากแบ่งปัน<span class="title-star" aria-hidden="true">✳︎</span></span></h2>
+
+        <div class="video-grid">
+          <div class="video-column reveal">
+            <div class="video-frame">
+              <!-- เปลี่ยน h6fcK_fRYaI ทั้ง 2 จุดเป็น YouTube Video ID ที่ต้องการ -->
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/RFyEcpjnfb8?rel=0"
+                title="The Egg – A Short Story โดย Kurzgesagt"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <div class="video-meta"><span><span class="live-indicator" aria-hidden="true"></span> FEATURED VIDEO / YOUTUBE</span><span>PRESS PLAY TO WATCH <span aria-hidden="true">↗︎</span></span></div>
+          </div>
+
+          <div class="video-description reveal">
+            <span class="video-category"><span aria-hidden="true">✦</span> MY FAVORITE VIDEO</span>
+            <h3>Live<br><em>— Rov กับคารี่</em></h3>
+            <p class="video-author">BY Carys Cordelia</p>
+            <div class="video-rule"></div>
+            <h4>ทำไมถึงชอบคลิปนี้?</h4>
+            <p>เขาเป็นคนที่เล่นเกมสนุกบันเทิงและเล่นเพลินมากกๆ</p>
+            <p>สิ่งที่ชอบที่สุดคือเขาเป็นสตรีมเมอร์ที่เข้าถึงง่ายม๊ากกกกเลยค่าาา</p>
+            <a class="video-link" href="https://www.youtube.com/watch?v=RFyEcpjnfb8" target="_blank" rel="noopener noreferrer">
+              <span>รับชมบน YouTube</span>
+              <span class="video-link-icon" aria-hidden="true">↗︎</span>
+            </a>
+            <p class="video-hint">* วิดีโอเป็นตัวอย่าง สามารถเปลี่ยนเป็นคลิปที่คุณชอบได้</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <span class="footer-eyebrow">AND THAT'S A LITTLE ABOUT ME</span>
+          <p>ขอบคุณที่แวะมา<br><em>รู้จักกันนะ!</em> <span aria-hidden="true">✳︎</span></p>
+        </div>
+        <a class="back-to-top" href="#top" aria-label="กลับขึ้นด้านบน">↑</a>
+      </div>
+      <div class="footer-bottom"><span>© 2026 MY.STORY — MADE TO BE ME.</span><span>DESIGNED WITH <span class="heart">♥</span> & CURIOSITY</span></div>
+    </div>
+  </footer>
+</body>
+</html>
